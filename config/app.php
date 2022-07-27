@@ -177,6 +177,7 @@ return [
 
         // Spatie/laravel-backup
         Spatie\Backup\BackupServiceProvider::class,
+        App\Providers\GoogleDriveServiceProvider::class,
 
     ],
 
