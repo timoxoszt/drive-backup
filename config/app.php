@@ -175,6 +175,9 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        // Spatie/laravel-backup
+        Spatie\Backup\BackupServiceProvider::class,
+
     ],
 
     /*
