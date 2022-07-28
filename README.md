@@ -62,6 +62,10 @@ Backup without notifications:
 ```php
 php artisan backup:run --disable-notifications
 ```
+## Reference
+- [Laravel & Google Drive Storage](https://github.com/ivanvermeyen/laravel-google-drive-demo)
+- [Spatie Laravel backup](https://spatie.be/docs/laravel-backup/v8/introduction)
+- [nao-pon/flysystem-google-drive](https://packagist.org/packages/nao-pon/flysystem-google-drive)
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
