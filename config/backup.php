@@ -8,7 +8,7 @@ return [
          * The name of this application. You can use this name to monitor
          * the backups.
          */
-        'name' => env('APP_NAME', 'drive-backup'),
+        'name' => env('GOOGLE_DRIVE_FOLDER_ID', ''),
 
         'source' => [
 
@@ -182,7 +182,7 @@ return [
      */
     'monitor_backups' => [
         [
-            'name' => env('APP_NAME', 'drive-backup'),
+            'name' => env('GOOGLE_DRIVE_FOLDER_ID', 'drive-backup'),
             'disks' => ['local'],
             'health_checks' => [
                 \Spatie\Backup\Tasks\Monitor\HealthChecks\MaximumAgeInDays::class => 1,

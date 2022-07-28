@@ -1,0 +1,4 @@
+[28-Jul-2022 12:56:26 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Failed opening required '/home/eenkrjtx/public_html/drive-backup/vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/eenkrjtx/public_html/drive-backup/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/eenkrjtx/public_html/drive-backup/artisan on line 18
